@@ -1,0 +1,16 @@
+.catkin_tools/*
+
+.vscode/*
+build/*
+devel/*
+logs/*
+
+*/.catkin_tools
+*/.vscode
+*/build
+*/devel
+*/logs
+
+.catkin_workspace
+commands.sh
+monica.jpeg
