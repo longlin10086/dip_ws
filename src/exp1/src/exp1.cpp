@@ -76,6 +76,8 @@ int main(int argc, char **argv)
     ros::Subscriber camera_sub;
 	VideoCapture capture;
 
+    vel_pub = n.advertise<geometry_msgs::Twist>("/cmd_vel", 10);
+
     Mat frame;//当前帧图片
 
     if(state == COMPUTER)
